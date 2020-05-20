@@ -51,3 +51,13 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 2px;
+}
+
+
+
+
