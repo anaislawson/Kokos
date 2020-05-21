@@ -10,6 +10,23 @@ margin:0;
 padding:0 0 10px;
 
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.myDiv {
+  border: 1px outset lightblue;
+  background-color: lightblue;    
+  text-align: center;
+}
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
 section.sec1 p{
 font-size: 1.2em;
 margin:0;
@@ -24,7 +41,12 @@ padding-top:20px;
 .font-p{
   font-family: 'Pacifico', cursive;
 }
-
+.font-open{
+  font-family:'Open Sans Condensed', sans-serif;
+}
+.font-pt1{
+  font-family: 'PT Sans', sans-serif;
+}
 .font-raleway {
   font-family: 'Raleway', sans-serif;
 }
@@ -37,6 +59,25 @@ padding-top:20px;
   width: 90vw;
   margin: auto;
 }
+/*header image */
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}}
 /* Navigation bar CSS */
 header {
   position: fixed;
@@ -83,7 +124,9 @@ nav a:hover {
 .social-media {
   margin: 20px 0px;
 }
-
+.font-white{
+  font-color:#FFFFFF;
+}
 .active {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -114,8 +157,12 @@ nav a:hover {
 
 .fullscreen {
   width: 100vw;
-} 
-
+}
+.moveimage
+{
+    position: relative;
+    top: 3px;
+}
 .container-div {
   display: flex;
   flex-direction: column;
@@ -165,7 +212,7 @@ nav a:hover {
 }
 /* Rounded border */
 hr.rounded {
-  border-top: 3px solid #CBC0D3;
+  border-top: 3px solid #A3B391;
   width: 500px;
   border-radius: 5px;
   margin: auto;
@@ -174,6 +221,12 @@ hr.rounded {
 .font-info{
   font-size: 100px;
 }
+.font-med{
+  font-size:20px;
+}
+
+
+
 /*these links dont work I need to fix them */
 p a:link {
   color: black;
@@ -195,6 +248,3 @@ p a:active {
 .font-m{
   font-family: 'Merriweather', serif;
 }
-
-
-
