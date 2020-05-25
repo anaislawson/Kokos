@@ -10,6 +10,8 @@
 	<script src="./js/styleps.js"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!--link href="https://fonts.googleapis.com/css?family=Port+Lligat+Sans&display=swap" rel="stylesheet"-->
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
@@ -25,9 +27,10 @@
 <body>
 	<header>
 		
+		
 		<nav>
 			<div class="dropdown">
-	  		<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+	  		<button onclick="myFunction()" class="dropbtn">Hairstyles</button>
 		  		<div id="myDropdown" class="dropdown-content">
 		   		<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"> 
 			    <a href="#singlebraids">Single Braids</a>
@@ -40,38 +43,90 @@
 		  		</div>
 			</div>
 		</nav>
-		<img src="img/gvilleloc.png" alt="image of Greenville shop">
 	</header>
+		<img src="img/gvilleloc.png" alt="image of Greenville shop" width="100%">
+	<div class="w3-container">
 
-	<div>
-		<h3 id="singlebraids">Single Braids</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="senegalese">Senegalese</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="micro">Micro</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="sew-in">Sew-in</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="cornrows">Cornrows</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="feed-in">Feed-in Braids</h3>
-		<hr class="rounded">
-	</div>
-	<div>
-		<h3 id="goddess">Goddess</h3>
-		<hr class="rounded">
-	</div>
 
+	
+	<div>
+		<h3 id="singlebraids"><button onclick="myFunction1('Demo1')">Single Braids</button></h3>
+		<hr class="rounded">
+		<div id="Demo1" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="senegalese"><button onclick="myFunction1('Demo2')">Senegalese</button></h3>
+		<hr class="rounded">
+		<div id="Demo2" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="micro"><button onclick="myFunction1('Demo3')">Micro</button></h3>
+		<hr class="rounded">
+		<div id="Demo3" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="sew-in"><button onclick="myFunction1('Demo4')">Sew-in</button></h3>
+		<hr class="rounded">
+		<div id="Demo4" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="cornrows"><button onclick="myFunction1('Demo5')">Cornrows</button></h3>
+		<hr class="rounded">
+		<div id="Demo5" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="feed-in"><button onclick="myFunction1('Demo6')">Feed-in Braids</button></h3>
+		<hr class="rounded">
+		<div id="Demo6" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+	<div>
+		<h3 id="goddess"><button onclick="myFunction1('Demo7')">Goddess</button></h3>
+		<hr class="rounded">
+		<div id="Demo7" class="w3-hide w3-border">
+		  <ul class="w3-ul">
+		    <li>Jill</li>
+		    <li>Eve</li>
+		    <li>Adam</li>
+		  </ul>  
+		</div>
+	</div>
+</div>
 
 
 </body>

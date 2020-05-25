@@ -1,14 +1,12 @@
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
+  color: black;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #B6C1D6;
 }
 
 #myInput {
@@ -38,7 +36,7 @@
   overflow: auto;
   border: 1px solid #ddd;
   z-index: 1;
-  right:0;
+  left:0;
 }
 
 .dropdown-content a {
@@ -56,6 +54,17 @@
 hr.rounded {
   border-top: 3px solid #bbb;
   border-radius: 2px;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
-
+/*Navigation bar */
+header {
+  position: absolute;
+  z-index: 1;
+  float:right;
+}
+h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
