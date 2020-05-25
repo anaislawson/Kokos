@@ -57,13 +57,5 @@ hr.rounded {
   border-top: 3px solid #bbb;
   border-radius: 2px;
 }
-#header {
-  position: fixed;
-}
-
-#content {
-  margin-top: 100px;
-}
-
 
 
