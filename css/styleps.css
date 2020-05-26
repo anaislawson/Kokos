@@ -87,3 +87,9 @@ h3{
     width: 100%;
   }
 }
+.big-font{
+  font-size: 50px;
+}
+.hair-font{
+  font-family: 'Work Sans', sans-serif;
+}
