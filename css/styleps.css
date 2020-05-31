@@ -67,10 +67,22 @@ h3{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* Create three equal columns that floats next to each other */
+/* Create 5 equal columns that floats next to each other */
 .column {
   float: left;
   width: 20%;
+  padding: 15px;
+}
+/* Create 4 equal columns that floats next to each other */
+.column1{
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+/* Create 3 equal columns that floats next to each other */
+.column2{
+  float: left;
+  width: 33%;
   padding: 15px;
 }
 
@@ -83,9 +95,15 @@ h3{
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-  .column {
+.column {
     width: 100%;
   }
+.column1 {
+  width: 100%;
+}
+.column2 {
+  width: 100%;
+}
 }
 .hair-font{
   font-family: 'Work Sans', sans-serif;
